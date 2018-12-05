@@ -1,4 +1,4 @@
-package createNeteaseAlbum;
+package webAuto;
 
 import java.util.concurrent.TimeUnit;
 
@@ -33,7 +33,7 @@ public class createNeteaseAlbum {
 		WebElement albumElement = driver.findElement(By.className("album"));
 		albumElement.click();
 		
-		WebElement createAlbum = driver.findElement(By.linkText("´´½¨Ïà²á"));
+		WebElement createAlbum = driver.findElement(By.linkText("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"));
 		createAlbum.click();
 		
 		WebElement albumName = driver.findElement(By.name("fm-0"));
